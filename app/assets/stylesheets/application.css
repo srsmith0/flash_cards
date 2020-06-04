@@ -1,0 +1,39 @@
+
+
+ h1 {
+   display: flex;
+   color: purple;
+   justify-content: center;
+ }
+
+ #add {
+   display: flex;
+   justify-content: center;
+ }
+
+ #cards {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   padding: 13px;
+ }
+
+ #card{
+ 
+   border: black 3px dashed;
+   padding: 6px;
+ }
+
+ #answer{
+   font-style: italic;
+   font-size: 4em;
+   color: teal;
+   display: flex;
+   justify-content: center;
+   padding: 20px;
+ }
+
+ a {
+   padding: 5px;
+   margin-bottom:5px;
+   font-family: cursive;
+ }
